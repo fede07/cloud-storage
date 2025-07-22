@@ -1,0 +1,7 @@
+﻿services:
+  cloudstorage:
+    image: cloudstorage
+    build:
+      context: .
+      dockerfile: CloudStorage/Dockerfile
+
